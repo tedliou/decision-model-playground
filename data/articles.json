@@ -1,0 +1,150 @@
+{
+  "source": "https://vervecode.dev/index.xml",
+  "fetched_at": "2026-09-19T12:58:33.966161+00:00",
+  "articles": [
+    {
+      "id": "a01",
+      "decision_label": "Astro Cloudflare build cache",
+      "title": "Astro 如何啟用 Cloudflare Pages 建置快取？設定步驟與速度實測",
+      "url": "https://vervecode.dev/workflow/astro-cloudflare-pages-build-cache/",
+      "summary": "在 Cloudflare Pages 開啟 Astro 建置快取並確認生效。本站實測建置從約 229 秒縮短到 81 秒，省下重複轉換圖片的時間。",
+      "category": "workflow"
+    },
+    {
+      "id": "a02",
+      "decision_label": "Hugo to Astro",
+      "title": "用 GPT-6 Astra 將 Hugo 部落格重寫成 Astro",
+      "url": "https://vervecode.dev/ai/hugo-to-astro/",
+      "summary": "用 GPT-6 Astra 將 Hugo 部落格重寫成 Astro，保留外觀、網址與功能。記錄相容性修正、Cloudflare Pages 設定與實際驗收。",
+      "category": "ai"
+    },
+    {
+      "id": "a03",
+      "decision_label": "TouchDesigner AI control",
+      "title": "td-cli 安裝與使用：讓 AI 幫忙操作 TouchDesigner",
+      "url": "https://vervecode.dev/ai/td-cli/",
+      "summary": "安裝 td-cli、Skill 與 TOX，讓 Codex 或 Claude Code 直接操作 TouchDesigner 專案，協助處理 OSC 訊號、影像效果與互動設計。",
+      "category": "ai"
+    },
+    {
+      "id": "a04",
+      "decision_label": "Codex project config",
+      "title": "使用 config.toml 設定 Codex 專案預設模型與權限",
+      "url": "https://vervecode.dev/ai/codex-project-config/",
+      "summary": "在專案建立 .codex/config.toml，能讓 Codex 於每次啟動時都自動套用模型與權限設定，省去再手動調整的步驟。",
+      "category": "ai"
+    },
+    {
+      "id": "a05",
+      "decision_label": "Agent development skills",
+      "title": "Matt Pocock Skills 讓 Agent 穩定處理開發工單",
+      "url": "https://vervecode.dev/ai/mattpocock-skills/",
+      "summary": "用 Matt Pocock Skills 先釐清需求並留下文件，再整理成 Spec、拆成工單並逐張實作。每個階段都有可確認的產出，讓後續開發有明確依據。",
+      "category": "ai"
+    },
+    {
+      "id": "a06",
+      "decision_label": "Unity editor CLI",
+      "title": "Unity CLI 讓 AI Agent 更容易安裝與管理編輯器",
+      "url": "https://vervecode.dev/unity/cli/",
+      "summary": "Unity CLI 是 Unity 提供的指令工具，可在不安裝或開啟 Unity Hub 的情況下安裝編輯器、模組與開啟專案，適合讓 AI Agent、CI 使用。",
+      "category": "unity"
+    },
+    {
+      "id": "a07",
+      "decision_label": "Claude Code proxy",
+      "title": "CLIProxyAPI 讓 Claude Code 使用 GPT 5.6 Sol 模型與 Codex 訂閱",
+      "url": "https://vervecode.dev/ai/cli-proxy-api/",
+      "summary": "CLIProxyAPI 能讓 Claude Code 透過本機代理連接 Codex 訂閱與指定的 GPT 模型；本文整理 macOS 安裝、模型路由、驗證與停用方式。",
+      "category": "ai"
+    },
+    {
+      "id": "a08",
+      "decision_label": "Agent dev containers",
+      "title": "把 Agent 關在開發容器，放心開完整權限也不會搞爛電腦",
+      "url": "https://vervecode.dev/ai/dev-container/",
+      "summary": "開發容器把 Agent 的工具鏈放進 Docker 執行，可降低污染主機環境的風險；真正要守住的邊界是掛載範圍與可由 Git 復原的專案變更。",
+      "category": "ai"
+    },
+    {
+      "id": "a09",
+      "decision_label": "Pi Coding Agent",
+      "title": "Pi Coding Agent 安裝、配置與使用 Codex 訂閱",
+      "url": "https://vervecode.dev/ai/pi-coding-agent/",
+      "summary": "Pi Coding Agent 是一個極簡化的終端機工具，以只內建 Agent 必須的基礎工具與高度的自定義特性為名，OpenClaw 也是採用他的核心來驅動 AI。",
+      "category": "ai"
+    },
+    {
+      "id": "a10",
+      "decision_label": "VS Code Chinese UI",
+      "title": "VS Code 設定介面語言繁體中文化",
+      "url": "https://vervecode.dev/workflow/vscode-localization/",
+      "summary": "VS Code 預設是英文介面，需額外安裝中文延伸模組，才能把介面切換成繁體中文。",
+      "category": "workflow"
+    },
+    {
+      "id": "a11",
+      "decision_label": "Windows DNS settings",
+      "title": "Windows 修改 DNS 設定，繞過「此網域已經遭到封鎖」警告",
+      "url": "https://vervecode.dev/workflow/windows-change-dns-server/",
+      "summary": "Windows 可手動改用 Cloudflare 或 Google 公共 DNS；本文整理設定位置、驗證方式與恢復 DHCP 的步驟，也說明改 DNS 無法處理的封鎖情況。",
+      "category": "workflow"
+    },
+    {
+      "id": "a12",
+      "decision_label": "Unity VS Code integration",
+      "title": "Unity 連動 VS Code / Cursor 程式碼編輯工具",
+      "url": "https://vervecode.dev/unity/vscode-integration/",
+      "summary": "Unity 官方支援使用 VS Code 來開發遊戲 C# 腳本，開源社群也支援使用 Cursor 搭配 Unity 進行 AI 輔助開發。為順利連動這兩種工具，需要分別對遊戲專案與程式碼編輯工具進行一些設定。",
+      "category": "unity"
+    },
+    {
+      "id": "a13",
+      "decision_label": "Minecraft Bedrock visuals",
+      "title": "Minecraft 基岩版光影資源包推薦與安裝教學",
+      "url": "https://vervecode.dev/games/minecraft-bedrock-resource-packs/",
+      "summary": "整理四款 Minecraft 基岩版光影資源包的實測畫面、特色與安裝方式，並說明 Vibrant Visuals 沒有效果時的檢查方法。",
+      "category": "games"
+    },
+    {
+      "id": "a14",
+      "decision_label": "Mac Word font fix",
+      "title": "macOS 移植 Windows 的標楷體，解決 Word 字型與跑版問題",
+      "url": "https://vervecode.dev/workflow/macos-word-font-kaiu/",
+      "summary": "Windows 用標楷體寫的 Word 文件，到了 macOS 常常會變成別的字型或跑版。我們只要把 Windows 的標楷體字型檔案 kaiu.ttf，移植到 macOS 就能解決。",
+      "category": "workflow"
+    },
+    {
+      "id": "a15",
+      "decision_label": "Generate game textures",
+      "title": "使用 Stable Diffusion 生成遊戲場景的無縫貼圖",
+      "url": "https://vervecode.dev/ai/sd-generate-scene-texture/",
+      "summary": "Stable Diffusion 能在本機電腦直接生成正方形的無縫貼圖，能用於 Unity 遊戲場景的雛形開發來快速建立遊戲畫面。",
+      "category": "ai"
+    },
+    {
+      "id": "a16",
+      "decision_label": "iPad second display",
+      "title": "Windows 如何把 iPad 當第二螢幕？GlideX 延伸螢幕設定",
+      "url": "https://vervecode.dev/workflow/extend-screen-to-ipad/",
+      "summary": "Windows 和 iPad 都安裝 GlideX 後，就能透過 Wi-Fi 或 USB 延伸桌面。連線後調整螢幕排列，讓滑鼠依桌上的擺放方向移動。",
+      "category": "workflow"
+    },
+    {
+      "id": "a17",
+      "decision_label": "Minecraft OneBlock map",
+      "title": "Minecraft OneBlock 一格方塊空島生存地圖安裝，支援 1.15 ~ 26.1 版本",
+      "url": "https://vervecode.dev/games/minecraft-oneblock/",
+      "summary": "IJAMinecraft 的 OneBlock 是近年很夯的空島生存遊戲地圖，目前最高支援到 Minecraft Java 26.1。",
+      "category": "games"
+    },
+    {
+      "id": "a18",
+      "decision_label": "Minecraft commands",
+      "title": "Minecraft 指令表，防噴、防爆、關火蔓延等常用指令整理",
+      "url": "https://vervecode.dev/games/minecraft-commands/",
+      "summary": "本文整理 Minecraft 常用的遊戲指令，包括 gamerule 的防噴、防爆、火焰蔓延、時間、天氣、夜視、give、xp 與 locate 等指令，方便玩家直接查表複製使用。",
+      "category": "games"
+    }
+  ]
+}

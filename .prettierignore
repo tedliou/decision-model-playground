@@ -1,0 +1,9 @@
+node_modules
+.venv
+.cache
+models
+.logs
+dist
+package-lock.json
+apps/api/openapi.json
+apps/web/src/api/schema.d.ts

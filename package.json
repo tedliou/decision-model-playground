@@ -1,0 +1,27 @@
+{
+  "name": "vervecode-model-playground",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others -n api,web -c cyan,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "uv run --frozen uvicorn playground.main:app --host 127.0.0.1 --port 8000",
+    "dev:web": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/web",
+    "lint": "npm run lint --workspace apps/web",
+    "test": "npm run test --workspace apps/web",
+    "api:types": "uv run --frozen python scripts/export_openapi.py && openapi-typescript apps/api/openapi.json -o apps/web/src/api/schema.d.ts",
+    "model:download": "uv run --frozen python scripts/download_model.py",
+    "articles:sync": "uv run --frozen python scripts/sync_articles.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4",
+    "openapi-typescript": "^7.13.0",
+    "prettier": "^3.9.8"
+  }
+}

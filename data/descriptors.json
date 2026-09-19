@@ -1,0 +1,74 @@
+{
+  "/workflow/astro-cloudflare-pages-build-cache/": {
+    "id": "a01",
+    "decision_label": "Astro Cloudflare build cache"
+  },
+  "/ai/hugo-to-astro/": {
+    "id": "a02",
+    "decision_label": "Hugo to Astro"
+  },
+  "/ai/td-cli/": {
+    "id": "a03",
+    "decision_label": "TouchDesigner AI control"
+  },
+  "/ai/codex-project-config/": {
+    "id": "a04",
+    "decision_label": "Codex project config"
+  },
+  "/ai/mattpocock-skills/": {
+    "id": "a05",
+    "decision_label": "Agent development skills"
+  },
+  "/unity/cli/": {
+    "id": "a06",
+    "decision_label": "Unity editor CLI"
+  },
+  "/ai/cli-proxy-api/": {
+    "id": "a07",
+    "decision_label": "Claude Code proxy"
+  },
+  "/ai/dev-container/": {
+    "id": "a08",
+    "decision_label": "Agent dev containers"
+  },
+  "/ai/pi-coding-agent/": {
+    "id": "a09",
+    "decision_label": "Pi Coding Agent"
+  },
+  "/workflow/vscode-localization/": {
+    "id": "a10",
+    "decision_label": "VS Code Chinese UI"
+  },
+  "/workflow/windows-change-dns-server/": {
+    "id": "a11",
+    "decision_label": "Windows DNS settings"
+  },
+  "/unity/vscode-integration/": {
+    "id": "a12",
+    "decision_label": "Unity VS Code integration"
+  },
+  "/games/minecraft-bedrock-resource-packs/": {
+    "id": "a13",
+    "decision_label": "Minecraft Bedrock visuals"
+  },
+  "/workflow/macos-word-font-kaiu/": {
+    "id": "a14",
+    "decision_label": "Mac Word font fix"
+  },
+  "/ai/sd-generate-scene-texture/": {
+    "id": "a15",
+    "decision_label": "Generate game textures"
+  },
+  "/workflow/extend-screen-to-ipad/": {
+    "id": "a16",
+    "decision_label": "iPad second display"
+  },
+  "/games/minecraft-oneblock/": {
+    "id": "a17",
+    "decision_label": "Minecraft OneBlock map"
+  },
+  "/games/minecraft-commands/": {
+    "id": "a18",
+    "decision_label": "Minecraft commands"
+  }
+}
