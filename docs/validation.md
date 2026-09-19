@@ -1,5 +1,7 @@
 # 驗證紀錄
 
+以下為 **2026-09-19 初始版本 `a2bbba2` 的本機實驗紀錄**，不是每次提交都會更新的驗收狀態，也不代表已適合正式環境。
+
 環境：Windows、RTX 3070 8GB、Python 3.12、Node.js 24。
 
 模型：`convaiinnovations/laya-multilingual`，固定版本 `052592a15d198d9ad47da779604259b10b47b7aa`。
@@ -32,6 +34,6 @@
 
 ## 可重跑的檢查
 
-請見 README 的驗證指令。後端 18 個測試與前端 2 個測試涵蓋分布完整性、`none`、供應者切換、輸入驗證、上游錯誤、機率條及重複送出防護。TypeScript 型別檢查、Vite 正式建置、ESLint、Ruff 皆通過。依賴安裝的 npm audit 沒有已知漏洞。
+請見 [README 的驗證指令](../README.md#驗證)。當次後端 18 個測試與前端 2 個測試涵蓋分布完整性、`none`、供應者切換、輸入驗證、上游錯誤、機率條及重複送出防護。TypeScript 型別檢查、Vite 的 production build、ESLint、Ruff 皆通過，當次 npm audit 未回報已知漏洞；build 通過僅表示前端可產生建置產物。
 
-pytest 目前有兩個上游棄用警告：Starlette TestClient 的 httpx 整合與 AnyIO BlockingPortal alias；不影響目前測試通過。
+當次 pytest 有兩個上游棄用警告：Starlette TestClient 的 httpx 整合與 AnyIO BlockingPortal alias；未影響該次測試結果。
